@@ -44,7 +44,9 @@ html {
 
 /* -----Education Section CSS----- */
 
- @media (max-width: 767px) {
+/* -----Education Section CSS----- */
+
+@media (max-width: 767px) {
   .dropdown1 {
     position: absolute;
     text-align: center;
@@ -55,33 +57,35 @@ html {
   .dropdown2 {
     position: absolute;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 8rem; /* Adjusted for smaller screens */
     padding-left: 3.5%;
     z-index: 3;
   }
   .godown {
     position: absolute;
     z-index: 1;
-    padding-top: 8rem;
+    padding-top: 6rem; /* Reduced padding to improve mobile display */
   }
 }
 
 .sect {
   height: auto;
-  max-width: 120%;
+  max-width: 100%; /* Adjusted to prevent overflow */
   background-size: cover;
   background-position: center center;
-  object-fit: fill;
 }
 
 .s2 {
   overflow-x: hidden;
+  overflow-y: auto; /* Optional: To ensure vertical scrolling is allowed if necessary */
 }
 
 .s2 .head {
   font-size: 2rem;
   font-weight: bold;
-} 
+  text-align: center; /* Optional: Aligns the header content to the center */
+}
+
 
 /*properties for online accreditaions(MOOCS) heading*/
 
