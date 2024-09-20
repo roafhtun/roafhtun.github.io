@@ -516,10 +516,11 @@ header p {
 }
 
 .timeline-img-header {
+  width: 100%;
   height: 200px;
   position: relative;
   margin-bottom: 20px;
-  /*background-image: url('assets/images/education-page/edTimeline1.png');*/
+  background-image: url('assets/images/education-page/edTimeline1.png');
 
 }
 
