@@ -47,7 +47,7 @@ html {
  @media (max-width: 767px) {
   .timeline-img-header {
     height: 50px;  /* Adjust the height for smaller screens */
-    width: 100%;    /* Ensure it takes up the full width of the content */
+    width: 50px;    /* Ensure it takes up the full width of the content */
     background-size: contain; /* Ensure the image scales properly */
     background-position: center; /* Center the image */
     margin-bottom: 15px;  /* Add some spacing between the image and content */
