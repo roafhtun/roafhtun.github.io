@@ -850,17 +850,6 @@ blockquote {
     }
   }
 
-  /* Extra small devices (phones, 320px and up) */
-@media (max-width: 480px) {
-  .timeline-img-header {
-      height: 120px;  /* Smaller height for extra small devices */
-      width: 100%;
-      background-size: contain;
-      background-position: center;
-      margin-bottom: 10px;
-  }
-}
-
 /* Small devices (phones, 481px and up) */
 @media (max-width: 576px) {
   .timeline-img-header {
