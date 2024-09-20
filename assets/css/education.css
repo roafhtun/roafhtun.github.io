@@ -660,6 +660,14 @@ blockquote {
   }
 }
 @media(max-width:1200px){
+
+  .timeline-img-header {
+    height: 50px;  /* Adjust the height for smaller screens */
+    width: 50px;    /* Ensure it takes up the full width of the content */
+    background-size: contain; /* Ensure the image scales properly */
+    background-position: center; /* Center the image */
+    margin-bottom: 15px;  /* Add some spacing between the image and content */
+  }
   .timelineHeading{
     font-size: 152%;
   }
@@ -673,6 +681,7 @@ blockquote {
 }
 
 @media (max-width: 991px){
+  
 
   .timeline-img-header {
     height: 50px;  /* Adjust the height for smaller screens */
