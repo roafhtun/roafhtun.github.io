@@ -45,6 +45,13 @@ html {
 /* -----Education Section CSS----- */
 
  @media (max-width: 767px) {
+  .timeline-img-header {
+    height: 150px;  /* Adjust the height for smaller screens */
+    width: 100%;    /* Ensure it takes up the full width of the content */
+    background-size: contain; /* Ensure the image scales properly */
+    background-position: center; /* Center the image */
+    margin-bottom: 15px;  /* Add some spacing between the image and content */
+  }
   .dropdown1 {
     position: absolute;
     text-align: center;
