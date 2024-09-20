@@ -395,6 +395,13 @@ header p {
   transform: translateX(-50%);
 }
 
+/* Ensure image headers in even timeline items get the same styling */
+.timeline-item:nth-child(even) .timeline-img-header {
+  height: 200px; /* Explicit height */
+  background-size: contain; /* Fit image properly */
+  background-position: center;
+}
+
 .timeline-item {
   width: 100%;
   margin-bottom: 70px;
@@ -530,8 +537,6 @@ header p {
   position: absolute;
   bottom: 5px;
   left: 20px;
-  width: 100%;
-  height: 200px;
 }
 
 blockquote {
