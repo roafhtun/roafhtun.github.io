@@ -894,3 +894,26 @@ blockquote {
   }
 }
 
+/* Extra small devices (phones, 320px and up) */
+@media (max-width: 480px) {
+  .timeline-img-header {
+      height: auto;
+      width: 100%;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-bottom: 15px;
+  }
+}
+
+/* For iPhone 14 Pro Max and similar devices */
+@media (max-width: 430px) {
+  .timeline-img-header {
+      height: auto;
+      width: 100%;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-bottom: 15px;
+  }
+}
