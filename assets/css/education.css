@@ -45,13 +45,6 @@ html {
 /* -----Education Section CSS----- */
 
  @media (max-width: 767px) {
-  .timeline-img-header {
-    height: 50px;  /* Adjust the height for smaller screens */
-    width: 50px;    /* Ensure it takes up the full width of the content */
-    background-size: contain; /* Ensure the image scales properly */
-    background-position: center; /* Center the image */
-    margin-bottom: 15px;  /* Add some spacing between the image and content */
-  }
   .dropdown1 {
     position: absolute;
     text-align: center;
@@ -644,14 +637,6 @@ blockquote {
   .text{
     margin-top:2rem;
   }
-
-  .timeline-img-header {
-    height: 50px;  /* Adjust the height for smaller screens */
-    width: 50px;    /* Ensure it takes up the full width of the content */
-    background-size: contain; /* Ensure the image scales properly */
-    background-position: center; /* Center the image */
-    margin-bottom: 15px;  /* Add some spacing between the image and content */
-  }
 }
 
 @media only screen and (max-width:1340px){
@@ -660,14 +645,6 @@ blockquote {
   }
 }
 @media(max-width:1200px){
-
-  .timeline-img-header {
-    height: 50px;  /* Adjust the height for smaller screens */
-    width: 50px;    /* Ensure it takes up the full width of the content */
-    background-size: contain; /* Ensure the image scales properly */
-    background-position: center; /* Center the image */
-    margin-bottom: 15px;  /* Add some spacing between the image and content */
-  }
   .timelineHeading{
     font-size: 152%;
   }
@@ -681,15 +658,6 @@ blockquote {
 }
 
 @media (max-width: 991px){
-  
-
-  .timeline-img-header {
-    height: 50px;  /* Adjust the height for smaller screens */
-    width: 50px;    /* Ensure it takes up the full width of the content */
-    background-size: contain; /* Ensure the image scales properly */
-    background-position: center; /* Center the image */
-    margin-bottom: 15px;  /* Add some spacing between the image and content */
-  }
 
   .timelineHeading{
     font-size: 1.8ch;
@@ -724,14 +692,6 @@ blockquote {
     left: 50px;
   }
 
-  .timeline-img-header {
-    height: 50px;  /* Adjust the height for smaller screens */
-    width: 50px;    /* Ensure it takes up the full width of the content */
-    background-size: contain; /* Ensure the image scales properly */
-    background-position: center; /* Center the image */
-    margin-bottom: 15px;  /* Add some spacing between the image and content */
-  }
-
   .timeline .timeline-content {
     max-width: 100%;
     width: auto;
@@ -764,14 +724,6 @@ blockquote {
   @media (max-width:502px){
     .timelineHeading2{
       font-size: 120%;
-    }
-
-    .timeline-img-header {
-      height: 50px;  /* Adjust the height for smaller screens */
-      width: 50px;    /* Ensure it takes up the full width of the content */
-      background-size: contain; /* Ensure the image scales properly */
-      background-position: center; /* Center the image */
-      margin-bottom: 15px;  /* Add some spacing between the image and content */
     }
   }
   @media (max-width:582px){
@@ -897,3 +849,48 @@ blockquote {
       text-align: center;
     }
   }
+
+  /* Extra small devices (phones, 320px and up) */
+@media (max-width: 480px) {
+  .timeline-img-header {
+      height: 120px;  /* Smaller height for extra small devices */
+      width: 100%;
+      background-size: contain;
+      background-position: center;
+      margin-bottom: 10px;
+  }
+}
+
+/* Small devices (phones, 481px and up) */
+@media (max-width: 576px) {
+  .timeline-img-header {
+      height: 140px;  /* Slightly larger height for small devices */
+      width: 100%;
+      background-size: contain;
+      background-position: center;
+      margin-bottom: 15px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .timeline-img-header {
+      height: 150px;  /* Medium size for tablets */
+      width: 100%;
+      background-size: contain;
+      background-position: center;
+      margin-bottom: 20px;
+  }
+}
+
+/* Large devices (tablets, 992px and up) */
+@media (max-width: 992px) {
+  .timeline-img-header {
+      height: 170px;  /* Larger height for bigger tablets */
+      width: 100%;
+      background-size: contain;
+      background-position: center;
+      margin-bottom: 25px;
+  }
+}
+
