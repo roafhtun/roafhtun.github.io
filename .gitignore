@@ -9,9 +9,9 @@ reference.html
 sem_temp.html
 techstack.html
 travel_temp.html
-assets/readme_assets/*
+readme_assets/*
 assets/js/event.js
-assets/js/reference.js
+assets/js/references.js
 assets/js/research.js
 assets/js/sem_temp.js
 assets/js/techstack.js
