@@ -544,8 +544,9 @@ blockquote {
   color: #FFFFFF;
   padding: 10px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
 }
 
 .alignment{
