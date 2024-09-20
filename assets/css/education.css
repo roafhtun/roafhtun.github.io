@@ -437,6 +437,28 @@ header p {
   clear: both;
 }
 
+/* Targeting right-side (even) timeline items */
+.timeline-item:nth-child(even) .timeline-img-header {
+  height: 200px; /* Set the desired height */
+  background-size: contain; /* Ensure the image fits properly */
+  background-position: center; /* Keep the image centered */
+  background-repeat: no-repeat; /* Avoid repeating the image */
+  margin-bottom: 20px; /* Add margin below the image */
+  padding: 20px; /* Ensure padding around the content */
+}
+
+/* Optional: Add an overlay for better readability (right-side items only) */
+.timeline-item:nth-child(even) .timeline-img-header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
+}
+
+
 /* This will give the cards to their respective sides */
 .timeline-content {
   position: relative;
