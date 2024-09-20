@@ -644,6 +644,14 @@ blockquote {
   .text{
     margin-top:2rem;
   }
+
+  .timeline-img-header {
+    height: 50px;  /* Adjust the height for smaller screens */
+    width: 50px;    /* Ensure it takes up the full width of the content */
+    background-size: contain; /* Ensure the image scales properly */
+    background-position: center; /* Center the image */
+    margin-bottom: 15px;  /* Add some spacing between the image and content */
+  }
 }
 
 @media only screen and (max-width:1340px){
@@ -665,6 +673,14 @@ blockquote {
 }
 
 @media (max-width: 991px){
+
+  .timeline-img-header {
+    height: 50px;  /* Adjust the height for smaller screens */
+    width: 50px;    /* Ensure it takes up the full width of the content */
+    background-size: contain; /* Ensure the image scales properly */
+    background-position: center; /* Center the image */
+    margin-bottom: 15px;  /* Add some spacing between the image and content */
+  }
 
   .timelineHeading{
     font-size: 1.8ch;
@@ -699,6 +715,14 @@ blockquote {
     left: 50px;
   }
 
+  .timeline-img-header {
+    height: 50px;  /* Adjust the height for smaller screens */
+    width: 50px;    /* Ensure it takes up the full width of the content */
+    background-size: contain; /* Ensure the image scales properly */
+    background-position: center; /* Center the image */
+    margin-bottom: 15px;  /* Add some spacing between the image and content */
+  }
+
   .timeline .timeline-content {
     max-width: 100%;
     width: auto;
@@ -731,6 +755,14 @@ blockquote {
   @media (max-width:502px){
     .timelineHeading2{
       font-size: 120%;
+    }
+
+    .timeline-img-header {
+      height: 50px;  /* Adjust the height for smaller screens */
+      width: 50px;    /* Ensure it takes up the full width of the content */
+      background-size: contain; /* Ensure the image scales properly */
+      background-position: center; /* Center the image */
+      margin-bottom: 15px;  /* Add some spacing between the image and content */
     }
   }
   @media (max-width:582px){
