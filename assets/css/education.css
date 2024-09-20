@@ -395,13 +395,6 @@ header p {
   transform: translateX(-50%);
 }
 
-/* Ensure image headers in even timeline items get the same styling */
-.timeline-item:nth-child(even) .timeline-img-header {
-  height: 200px; /* Explicit height */
-  background-size: contain; /* Fit image properly */
-  background-position: center;
-}
-
 .timeline-item {
   width: 100%;
   margin-bottom: 70px;
