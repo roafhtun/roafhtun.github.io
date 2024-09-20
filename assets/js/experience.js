@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/lapl.png",
     place: "Los Angeles Public Library",
     time: "(Jul, 2024 - present)",
-    desp: "<li></li> <li></li> <li></li>",
+    desp: "",
   },
   {
     title: "Software Engineer",
