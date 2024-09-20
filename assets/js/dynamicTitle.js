@@ -1,7 +1,7 @@
 window.onload = function () {
   const favicon = document.getElementById('favicon')
   const pageTitle = document.title
-  const attentionMessage = 'Come back'
+  const attentionMessage = 'Roaf Htun is here'
 
   document.addEventListener('visibilitychange', function (e) {
     const isPageActive = !document.hidden
@@ -11,10 +11,10 @@ window.onload = function () {
   function toggle(isPageActive) {
     if (isPageActive) {
       document.title = pageTitle
-      favicon.href = './assets/images/dp_male.svg'
+      favicon.href = 'https://raw.githubusercontent.com/roafhtun/portfolio/main/images/1693868899805_2.jpg'
     } else {
       document.title = attentionMessage
-      favicon.href = './assets/images/folded.png'
+      favicon.href = 'https://raw.githubusercontent.com/roafhtun/portfolio/main/images/1693868899805_2.jpg'
     }
   }
 }
