@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Applications Programmer",
-    cardImage: "assets/images/experience-page/lapl.jpg",
+    cardImage: "assets/images/experience-page/lapl.png",
     place: "Los Angeles Public Library",
     time: "(Jul, 2024 - present)",
     desp: "<li></li> <li></li> <li></li>",
@@ -27,8 +27,8 @@ const exp = [
   },
   {
     title: "Software Engineer (Internship)",
-    cardImage: "assets/images/experience-page/tatum.jpg",
-    place: "Los Angeles Public Library",
+    cardImage: "assets/images/experience-page/tatum.png",
+    place: "Tatum Games",
     time: "(May, 2023 - Oct 2023)",
     desp: "<li>Orchestrated collaboration within a high-performing game analytics team, revolutionizing player experience through innovative KPIs and achieving a 25% increase in user retention.</li> <li>Implemented an efficient bug tracking system, reducing average bug resolution time by 25% and ensuring timely delivery of bug fixes to maintain high player satisfaction.</li> <li>Conducted comprehensive testing of the ported analytics system, ensuring 99.9% accuracy in data collection and analysis, resulting in improved decision-making and actionable insights for the organization.</li> <li>Spearheaded brainstorming sessions to generate groundbreaking ideas for implementing game analytics, resulting in a 40% reduction in time for user to implement MIKROS.</li>",
   },
@@ -70,7 +70,7 @@ const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
     title: "ACM CAL STATE LA",
-    cardImage: "assets/images/experience-page/acm.jpg",
+    cardImage: "assets/images/experience-page/acm.png",
     description:
       "Participated and collaborated in the projects with other students.",
   },
