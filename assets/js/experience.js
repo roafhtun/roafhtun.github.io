@@ -13,7 +13,7 @@ const exp = [
   },
   {
     title: "Software Engineer",
-    cardImage: "assets/images/experience-page/DSX.jpg",
+    cardImage: "assets/images/experience-page/DSX.png",
     place: "DSX - Paliverse Apps",
     time: "(Apr, 2024 - May, 2024)",
     desp: "<li>Collaborating on the development of DSX, a cutting-edge DualShock emulator for PC, focusing on bringing wireless adaptive trigger features and enhanced rumble functionality to a wide audience.</li><li>Tasked with the role of rewriting the DSX app from version 3.0 to 3.1, incorporating new features and performance optimizations to elevate the gaming experience.</li><li>Working closely with a dynamic team to innovate and implement advanced technologies, ensuring the emulator not only meets but exceeds the expectations of gaming enthusiasts.</li><li>Contributing to the development lifecycle, from initial design to final release, emphasizing scalable code, robust functionality, and user-friendly design.</li>",
